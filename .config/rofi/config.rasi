@@ -1,0 +1,10 @@
+configuration {
+    show-icons: true;
+    display-combi: "Applications";
+    disable-history: false;
+    modi: "combi,ssh";
+    sidebar-mode: true;
+    combi-modi: "window,drun";
+}
+
+@theme "/usr/share/rofi/themes/DarkBlue.rasi"
