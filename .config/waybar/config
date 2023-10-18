@@ -37,7 +37,6 @@
             "Minecraft (.*)": "󰍳     Minecraft",
             "(.*) Thunar": "     $1",
             "(.*) Swaylock": "Swaylock",
-            "": "󰣇 "
             "": "BIENVENUE DANS LA SIMULATION"
         }
     },
@@ -46,7 +45,6 @@
         "format": "{icon}",
         "format-icons": {
             "notification": "<span foreground='red'><sup></sup></span>",
-            "none": "",
             "none": "󰣇",
             "dnd-notification": "<span foreground='red'><sup></sup></span>",
             "dnd-none": "",
