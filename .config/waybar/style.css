@@ -36,6 +36,10 @@ window#waybar {
   margin: 5px 5px 0px 5px;
 }
 
+window#waybar.empty {
+  background-color: transparent;
+}
+
 #custom-notification {
   background: #babbf1;
   color: black;

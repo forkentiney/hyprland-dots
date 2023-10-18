@@ -2,6 +2,7 @@
     "$schema": "/etc/xdg/swaync/configSchema.json",
     "positionX": "center",
     "positionY": "top",
+    "layer": "bottom",
     "control-center-margin-top": 10,
     "control-center-margin-bottom": 10,
     "control-center-margin-right": 10,
