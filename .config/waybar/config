@@ -26,7 +26,8 @@
         "spacing": 10
     },
     "hyprland/window": {
-        "format": "{}",
+        "format": "{title}",
+        "max-length": "40",
         "rewrite": {
             "(.*)Mozilla Firefox": "     $1",
             "(.*) - Code - OSS": "󰨞     $1",
