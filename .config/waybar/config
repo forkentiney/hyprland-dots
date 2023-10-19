@@ -31,7 +31,7 @@
         "rewrite": {
             "(.*)Mozilla Firefox": "     $1",
             "(.*) - Code - OSS": "󰨞     $1",
-            "jseverud@tormund:(.*)": "     $1",
+            "(.*)~": "     $1",
             "(.*) - Discord": "󰙯     $1",
             "(.*) WhatsApp": "     WhatsApp",
             "Steam": "󰓓     Steam",
