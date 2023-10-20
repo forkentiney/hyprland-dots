@@ -8,3 +8,5 @@ All in all, I'm very happy with the way my system has turned out, and I think th
 ![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/54cafaad-9347-46a2-a184-49c8344772b9)
 
 ![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/425b4bff-c5ad-400e-a4a6-0f5cee1493eb)
+
+![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/f030b0a9-8221-4236-8e80-825ba5cd1cfb)
