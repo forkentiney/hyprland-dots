@@ -9,7 +9,6 @@ All in all, I'm very happy with the way my system has turned out, and I think th
 ![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/655b1f00-10f7-46f8-a74d-60a6a89929fe)
 
 ### swaync
-![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/ea72eb79-f899-4ac8-a92d-fa3a273f26ed)
 
-### neovim
+## neovim
 ![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/a64980d3-9611-4156-9c01-7b969ed7bdb0)
