@@ -10,5 +10,5 @@ All in all, I'm very happy with the way my system has turned out, and I think th
 
 ### swaync
 
-## neovim
+### neovim
 ![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/a64980d3-9611-4156-9c01-7b969ed7bdb0)
