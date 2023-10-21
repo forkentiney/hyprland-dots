@@ -6,7 +6,7 @@ With that said, since I am a novice, I did have some help from the Internet. I f
 All in all, I'm very happy with the way my system has turned out, and I think that using git is a nice way to keep track of changes I make to my system, and it can even act as a backup in case I need to reinstall Arch on this machine or any other machine for any reason whatsoever. Feel free to use my config as is or as a base for your own config. Let me know if there are any ways it might be improved. 
 
 ### neofetch
-![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/54cafaad-9347-46a2-a184-49c8344772b9)
+![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/655b1f00-10f7-46f8-a74d-60a6a89929fe)
 
 ### swaync
 ![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/425b4bff-c5ad-400e-a4a6-0f5cee1493eb)
