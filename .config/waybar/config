@@ -1,5 +1,4 @@
 {
-    "name": "mainBar",
     "layer": "top",
     "modules-left": ["hyprland/workspaces", "tray"],
     "modules-center": ["hyprland/window", "custom/notification"],
@@ -29,14 +28,14 @@
         "format": "{title}",
         "max-length": "40",
         "rewrite": {
-            "(.*)Mozilla Firefox": "     $1",
-            "(.*) - Code - OSS": "󰨞     $1",
-            "(.*)~": "     $1",
-            "(.*) - Discord": "󰙯     $1",
-            "(.*) WhatsApp": "     WhatsApp",
-            "Steam": "󰓓     Steam",
-            "Minecraft (.*)": "󰍳     Minecraft",
-            "(.*) Thunar": "     $1",
+            "(.*)Mozilla Firefox": " $1",
+            "(.*) - Code - OSS": "󰨞 $1",
+            "(.*)~": " $1",
+            "(.*) - Discord": "󰙯 $1",
+            "(.*) WhatsApp": " WhatsApp",
+            "Steam": "󰓓 Steam",
+            "Minecraft (.*)": "󰍳 Minecraft",
+            "(.*) Thunar": " $1",
             "(.*) Swaylock": "Swaylock",
             "": "BIENVENUE DANS LA SIMULATION"
         }
@@ -100,7 +99,7 @@
         },
         "format": "{capacity}% {icon}",
         "format-icons": {
-            "charging": "  󱐥",
+            "charging": "󱐥",
             "good": ["", "", "", "", ""],
             "critical": ""
         },
