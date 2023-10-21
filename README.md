@@ -12,4 +12,4 @@ All in all, I'm very happy with the way my system has turned out, and I think th
 ![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/ea72eb79-f899-4ac8-a92d-fa3a273f26ed)
 
 ### neovim
-![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/688735c4-f0a6-45b5-b5d9-0742508408ea)
+![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/a64980d3-9611-4156-9c01-7b969ed7bdb0)
