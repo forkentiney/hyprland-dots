@@ -70,7 +70,7 @@
                 },
                 {
                     "label": "󰏥",
-                    "command": "systemctl suspend"
+                    "command": "swaylock & systemctl suspend"
                 },
                 {
                     "label": "󰕾",

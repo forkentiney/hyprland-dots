@@ -36,6 +36,7 @@
             "Steam": "󰓓 Steam",
             "Minecraft (.*)": "󰍳 Minecraft",
             "(.*) Thunar": " $1",
+	    "nvim": " Neovim",
             "(.*) Swaylock": "Swaylock",
             "": "BIENVENUE DANS LA SIMULATION"
         }
