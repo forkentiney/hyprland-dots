@@ -15,7 +15,8 @@ vim.opt.rtp:prepend(lazypath)
 -- lazy.nvim plugins and optional commands
 require("lazy").setup({
   {"catppuccin/nvim", name = "catppuccin", priority = 1000},
-  {"echasnovski/mini.starter", name = "mini.starter"}
+  {"echasnovski/mini.starter", name = "mini.starter"},
+  {"echasnovski/mini.pairs", name = "mini.pairs"}
 })
 
 -- Displays relative line numbers on left-hand-side
@@ -71,6 +72,9 @@ require("catppuccin").setup({
 
 -- Activates mini.starter
 require('mini.starter').setup()
+
+-- Activates mini.pairs
+require('mini.pairs').setup()
 
 -- Activates Catppuccin theme. Setup must be called before loading
 vim.cmd.colorscheme "catppuccin"
