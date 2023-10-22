@@ -37,6 +37,7 @@
             "Minecraft (.*)": "󰍳 Minecraft",
             "(.*) Thunar": " $1",
 	    "nvim": " Neovim",
+	    "Spotify": " Spotify",
             "(.*) Swaylock": "Swaylock",
             "": "BIENVENUE DANS LA SIMULATION"
         }
@@ -47,11 +48,11 @@
         "format-icons": {
 	    "notification": "<span foreground='#e78284'><sup></sup></span>",
 	    "none": "",
-            "dnd-notification": "<span foreground='red'><sup></sup></span>",
+            "dnd-notification": "<span foreground='#e78284'><sup></sup></span>",
             "dnd-none": "",
-            "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+            "inhibited-notification": "<span foreground='#e78284'><sup></sup></span>",
             "inhibited-none": "",
-            "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+            "dnd-inhibited-notification": "<span foreground='#e78284'><sup></sup></span>",
             "dnd-inhibited-none": ""
         },
         "return-type": "json",
