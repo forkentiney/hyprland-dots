@@ -1,14 +1,14 @@
 * {
   border: none;
   border-radius: 0px;
-  font-family: "FiraCode Nerd Font";
   font-size: 14px;
-  font-weight: bold;
   min-height: 0;
 }
 
 window#waybar {
   background-color: transparent;
+  font-family: "FiraCode Nerd Font";
+  font-weight: bold;
 }
 
 /*
@@ -36,6 +36,8 @@ window#waybar {
 }
 
 #tray {
+  font-family: "Adwaita";
+  font-weight: normal;
   background-color: #232634;
   border-radius: 20px;
   padding: 0px 10px;

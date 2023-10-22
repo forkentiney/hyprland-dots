@@ -26,7 +26,7 @@
     },
     "hyprland/window": {
         "format": "{title}",
-        "max-length": "40",
+        "max-length": "30",
         "rewrite": {
             "(.*)Mozilla Firefox": " $1",
             "(.*) - Code - OSS": "󰨞 $1",
@@ -45,8 +45,8 @@
         "tooltip": false,
         "format": "{icon}",
         "format-icons": {
-            "notification": "<span foreground='red'><sup></sup></span>",
-            "none": "󰣇",
+	    "notification": "<span foreground='#e78284'><sup></sup></span>",
+	    "none": "",
             "dnd-notification": "<span foreground='red'><sup></sup></span>",
             "dnd-none": "",
             "inhibited-notification": "<span foreground='red'><sup></sup></span>",
