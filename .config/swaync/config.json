@@ -82,15 +82,15 @@
                 },
                 {
                     "label": "󰖩",
-                    "command": "nm-connection-editor"
+                    "command": "swaync-client -t -sw & nm-connection-editor"
                 },
                 {
                     "label": "󰂯",
-                    "command": "blueman-manager"
+                    "command": "swaync-client -t -sw & blueman-manager"
                 },
                 {
                     "label": "",
-                    "command": "obs"
+                    "command": "swaync-client -t -sw & obs"
                 }
             ]
         }
