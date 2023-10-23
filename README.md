@@ -13,3 +13,34 @@ All in all, I'm very happy with the way my system has turned out, and I think th
 
 ### neovim
 ![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/a64980d3-9611-4156-9c01-7b969ed7bdb0)
+
+## Applications on my system
+- blueman
+- bluez-utils
+- brightnessctl
+- catppuccin-gtk-theme-frappe
+- ffmpegthumbnailer
+- git
+- grim
+- hyprland-nvidia
+- hyprpaper
+- kitty
+- networkmanager
+- network-manager-applet
+- networkmanager-openvpn
+- nmconnection-editor
+- pamixer
+- polkit-kde-agent
+- rofi
+- sddm-git
+- sddm-catppuccin-git
+- slurp
+- swaylock-effects-git
+- swaync
+- thunar
+- thunar-volman
+- ttf-ms-win10-auto
+- tumbler
+- waybar
+- wl-clipboard
+- zsh
