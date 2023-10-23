@@ -16,7 +16,9 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   {"catppuccin/nvim", name = "catppuccin", priority = 1000},
   {"echasnovski/mini.starter", name = "mini.starter"},
-  {"echasnovski/mini.pairs", name = "mini.pairs"}
+  {"echasnovski/mini.pairs", name = "mini.pairs"},
+  {"nvim-telescope/telescope.nvim", name = "telescope", tag = '0.1.4',
+      dependencies = { 'nvim-lua/plenary.nvim' }}
 })
 
 -- Displays relative line numbers on left-hand-side
@@ -69,6 +71,16 @@ require("catppuccin").setup({
         -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
     },
 })
+
+-- Activates Telescope
+require('telescope').setup()
+
+-- Telescope Keybinds
+local builtin = require('telescope.builtin')
+vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
+vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 -- Activates mini.starter
 require('mini.starter').setup()
