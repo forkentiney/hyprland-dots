@@ -47,39 +47,38 @@ All in all, I'm very happy with the way my system has turned out, and I think th
 
 ## Steps I took to get Hyprland working with Nvidia
  - Run archinstall with linux kernal
- - Install zsh
- - run chsh -s $(which zsh)
+ - Install ```zsh```
+ - run ```chsh -s $(which zsh)```
  - Logout
  - Login and type 110213041u2u3s4s5u00 to quickly configure zsh
- - Install linux-kernals package
- - Install nvidia-dkms package
- - add nvidia_drm.modeset=1 to the end of /boot/loader/entries/arch.conf
- - in /etc/mkinitcpio.conf add nvidia nvidia_modeset nvidia_uvm nvidia_drm to MODULES array
- - run mkinitcpio --config /etc/mkinitcpio.conf --generate /boot/initramfs-custom.img
- - add "options nvidia-drm modeset=1" to /etc/modprobe.d/nvidia.conf
+ - Install ```linux-kernals``` package
+ - Install ```nvidia-dkms``` package
+ - add ```nvidia_drm.modeset=1``` to the end of /boot/loader/entries/arch.conf
+ - in /etc/mkinitcpio.conf add ```nvidia nvidia_modeset nvidia_uvm nvidia_drm``` to MODULES array
+ - run ```mkinitcpio --config /etc/mkinitcpio.conf --generate /boot/initramfs-custom.img```
+ - add ```options nvidia-drm modeset=1``` to /etc/modprobe.d/nvidia.conf
  - Install yay:
-```
+   ```
    sudo pacman --needed base-devel git
    git clone https://aur.archlinux.org/yay.git
    cd yay
    makepkg -si
-```
- - Install hyprland-nvidia (aur)
- - Install qt5-wayland qtct libva
- - Install nvidia-vaapi-driver-git (aur)
- - Wrap the launcher by adding:
-```
-    #!/bin/sh
+   ```
+ - Install ```hyprland-nvidia``` (aur)
+ - Install ```qt5-wayland qtct libva```
+ - Install ```nvidia-vaapi-driver-git``` (aur)
+ - Wrap the launcher by adding the following to /usr/local/bin/hyprland-wrap
+   ```
+   #!/bin/sh
 
-    cd ~
+   cd ~
 
-    export _JAVA_AWT_WM_NONREPARENTING=1
-    export XCURSOR_SIZE=24
+   export _JAVA_AWT_WM_NONREPARENTING=1
+   export XCURSOR_SIZE=24
 
-    exec Hyprland
-```
- to /usr/local/bin/hyprland-wrap
-- Make hyprland-wrap executable
+   exec Hyprland
+   ```
+- Make hyprland-wrap executable 
 - Reboot
- run hyprland-wrap
- Add env variables to ~/.config/hypr/hyprland.conf (done already as part of this repo)
+- Run ```hyprland-wrap```
+- Add env variables to ~/.config/hypr/hyprland.conf (done already as part of this repo)
