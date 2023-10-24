@@ -7,4 +7,4 @@ configuration {
     combi-modi: "window,drun";
 }
 
-@theme "/usr/share/rofi/themes/DarkBlue.rasi"
+@theme "~/.config/rofi/DarkBlue.rasi"
