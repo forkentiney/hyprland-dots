@@ -36,6 +36,7 @@ window#waybar {
 }
 
 #tray {
+  font-family: "Cantarell 11";
   font-weight: normal;
   background-color: #232634;
   border-radius: 20px;
