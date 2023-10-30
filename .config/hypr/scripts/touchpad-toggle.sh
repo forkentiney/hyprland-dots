@@ -13,7 +13,7 @@ enable_touchpad() {
 
   notify-send -u normal "Enabling Touchpad"
 
-  hyprctl keyword "device:$HYPRLAND_DEVICE:enabled" true
+  hyprctl keyword "device:$HYPRLAND_DEVICE:enabled" true && hyprctl reload
 }
 
 disable_touchpad() {
