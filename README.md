@@ -5,14 +5,17 @@ With that said, since I am a novice, I did have some help from the Internet. I f
 
 All in all, I'm very happy with the way my system has turned out, and I think that using git is a nice way to keep track of changes I make to my system, and it can even act as a backup in case I need to reinstall Arch on this machine or any other machine for any reason whatsoever. Feel free to use my config as is or as a base for your own config. Let me know if there are any ways it might be improved. 
 
-### neofetch
-![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/655b1f00-10f7-46f8-a74d-60a6a89929fe)
+### empty desktop
+![EmptyDesktop](https://github.com/forkentiney/hyprland-dots/assets/136779764/5a095f63-ddf1-47ca-b537-f8436e1fa287)
+
+### neofetch, notification, neovim config
+![NotificationExample](https://github.com/forkentiney/hyprland-dots/assets/136779764/a2f6594d-23b8-4e1e-85b8-ba9c5e81fd61)
 
 ### swaync
-![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/ea659259-0b94-44ee-9332-4049aa6caa6b)
+![SwayNC](https://github.com/forkentiney/hyprland-dots/assets/136779764/ad01b656-7746-400b-a590-6dbd08dfb2ef)
 
 ### neovim
-![image](https://github.com/forkentiney/hyprland-dots/assets/136779764/a64980d3-9611-4156-9c01-7b969ed7bdb0)
+![NeovimStart](https://github.com/forkentiney/hyprland-dots/assets/136779764/fde8abae-006f-490f-9e3d-68590ce1a0ec)
 
 ## Applications on my system
 - blueman
