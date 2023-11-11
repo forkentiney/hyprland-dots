@@ -30,7 +30,7 @@ window#waybar {
 #workspaces {
   background-color: #232634;
   border-radius: 20px;
-  color: #f2d5cf;
+  color: white;
   padding: 0px 10px;
   margin: 5px 5px 2px 5px;
 }
